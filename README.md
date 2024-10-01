@@ -19,7 +19,7 @@ tecnologias como realidade virtual, os alunos podem simular procedimentos em
 ambientes virtuais realistas, receber feedback personalizado e treinar com
 simuladores robóticos, aprimorando suas habilidades de forma mais rápida,
 segura e acessível, buscando otimizar o aprendizado, e preparar os futuros
-profissionais para os desafios da prática médica com excelência
+profissionais para os desafios da prática médica com excelência.
 ___
 ## Desenvolvimento do Projeto
 O projeto foi desenvolvido utilizando Jupyter Notebook, para a estruturação do código, juntamente com
@@ -30,7 +30,14 @@ O site do projeto é composto por:
   - Login
   - Gerenciamento
     
-Todo o sistema de cadastro e login em widgets dentro das celulas do notebook, é feito para recorrer a operações de armazenamento na base de dados nomeada com o acronimo CRUD(Create, Read, Update, Delete) usando como base a tabela usuario
+Todo o sistema de cadastro e login em widgets dentro das celulas do notebook, é feito para recorrer a operações de armazenamento na base de dados nomeada com o acronimo CRUD(Create, Read, Update, Delete) usando como base a tabela usuario.
+___
+## Funcionalidades e diagrama
+O projeto foi desenvolvido para se conectar a base de dados e usar um acronimo conhecido para operações de dados CRUD
+<div align=center>
+<img src="Diagrama Dynamic Programming.png" widht="200" height="400">
+</div>
+o CRUD (Create, Read, Update, Delete) serve como intermediario para os sistemas de login, cadastro e gerenciamento, para interagir diretamente com a cabela e puxar informações da mesma.
 ___
 ## Como executar o projeto
 O codigo pode ser executado usando o site "google colab" que hospeda uma versão web de python, conjuntamente com algumas bibliotecas extras ja inclusas no "google colab" e um arquivo de driver "ojdbc8.jar"(anexado no zip) para conectar a base de dados Oracle
